@@ -41,8 +41,8 @@ ol,
 ul,
 .katex,
 .math {
-  color: var(--red);
-  fill: var(--red);
+  color: var(--darkgray);
+  fill: var(--darkgray);
   overflow-wrap: anywhere;
   hyphens: auto;
 }
@@ -264,7 +264,7 @@ h5,
 h6,
 thead {
   font-family: var(--headerFont);
-  color: var(--red);
+  color: var(--dark);
   font-weight: revert;
   margin-bottom: 0;
 

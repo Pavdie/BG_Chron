@@ -9,7 +9,7 @@ export default ((component?: QuartzComponent) => {
 
     DesktopOnly.displayName = component.displayName
     DesktopOnly.afterDOMLoaded = component?.afterDOMLoaded
-    DesktopOnly.befograyOMLoaded = component?.befograyOMLoaded
+    DesktopOnly.beforeDOMLoaded = component?.beforeDOMLoaded
     DesktopOnly.css = component?.css
     return DesktopOnly
   } else {

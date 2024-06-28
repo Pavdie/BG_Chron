@@ -4,8 +4,8 @@ export default (() => {
   }
  
   YourComponent.css = `
-  p.gray-text {
-    color: gray;
+  p.red-text {
+    color: red;
   }
   `
  

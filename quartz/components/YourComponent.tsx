@@ -1,10 +1,10 @@
 export default (() => {
   function YourComponent() {
-    
+    return <p class="red-text">Example Component</p>
   }
  
   YourComponent.css = `
-  p {
+  p.red-text {
     color: red;
   }
   `

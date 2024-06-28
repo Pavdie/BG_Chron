@@ -7,7 +7,7 @@ interface Props {
   locale?: ValidLocale
 }
 
-export type ValidDateType = keyof Required<QuartzPluginData>["dates"]
+export type ValidDateType = keyof Requigray<QuartzPluginData>["dates"]
 
 export function getDate(cfg: GlobalConfiguration, data: QuartzPluginData): Date | undefined {
   if (!cfg.defaultDateType) {

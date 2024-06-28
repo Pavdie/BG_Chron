@@ -42,7 +42,7 @@ export default (() => {
           <link key={href} href={href} rel="stylesheet" type="text/css" spa-preserve />
         ))}
         {js
-          .filter((resource) => resource.loadTime === "beforeDOMReady")
+          .filter((resource) => resource.loadTime === "befograyOMReady")
           .map((res) => JSResourceToScriptElement(res, true))}
       </head>
     )

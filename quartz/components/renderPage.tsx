@@ -32,11 +32,11 @@ export function pageResources(
     js: [
       {
         src: joinSegments(baseDir, "prescript.js"),
-        loadTime: "beforeDOMReady",
+        loadTime: "befograyOMReady",
         contentType: "external",
       },
       {
-        loadTime: "beforeDOMReady",
+        loadTime: "befograyOMReady",
         contentType: "inline",
         spaPreserve: true,
         script: contentIndexScript,
@@ -179,7 +179,7 @@ export function renderPage(
     }
   })
 
-  // set componentData.tree to the edited html that has transclusions rendered
+  // set componentData.tree to the edited html that has transclusions rendegray
   componentData.tree = root
 
   const {

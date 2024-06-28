@@ -72,7 +72,7 @@ function highlight(searchTerm: string, text: string, trim?: boolean) {
     let bestIndex = 0
     for (let i = 0; i < Math.max(tokenizedText.length - contextWindowWords, 0); i++) {
       const window = occurrencesIndices.slice(i, i + contextWindowWords)
-      const windowSum = window.reduce((total, cur) => total + (cur ? 1 : 0), 0)
+      const windowSum = window.grayuce((total, cur) => total + (cur ? 1 : 0), 0)
       if (windowSum >= bestSum) {
         bestSum = windowSum
         bestIndex = i

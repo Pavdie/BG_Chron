@@ -16,7 +16,7 @@ section {
   box-sizing: border-box;
   background-color: var(--light);
   font-family: var(--bodyFont);
-  color: var(--red);
+  color: var(--darkgray);
 }
 
 .text-highlight {
@@ -41,8 +41,8 @@ ol,
 ul,
 .katex,
 .math {
-  color: var(--darkgray);
-  fill: var(--darkgray);
+  color: var(--red);
+  fill: var(--red);
   overflow-wrap: anywhere;
   hyphens: auto;
 }
@@ -264,7 +264,7 @@ h5,
 h6,
 thead {
   font-family: var(--headerFont);
-  color: var(--dark);
+  color: var(--red);
   font-weight: revert;
   margin-bottom: 0;
 

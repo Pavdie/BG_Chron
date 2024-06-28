@@ -9,7 +9,7 @@ export default ((component?: QuartzComponent) => {
 
     MobileOnly.displayName = component.displayName
     MobileOnly.afterDOMLoaded = component?.afterDOMLoaded
-    MobileOnly.befograyOMLoaded = component?.befograyOMLoaded
+    MobileOnly.beforeDOMLoaded = component?.beforeDOMLoaded
     MobileOnly.css = component?.css
     return MobileOnly
   } else {

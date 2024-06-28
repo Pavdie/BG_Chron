@@ -20,7 +20,7 @@ export type QuartzComponentProps = {
 
 export type QuartzComponent = ComponentType<QuartzComponentProps> & {
   css?: string
-  befograyOMLoaded?: string
+  beforeDOMLoaded?: string
   afterDOMLoaded?: string
 }
 

@@ -23,12 +23,12 @@ const config: QuartzConfig = {
       cdnCaching: true,
       typography: {
         header: "Kelly Slab",
-        body: "Prata",
+        body: "Yanone Kaffeesatz",
         code: "IBM Plex Mono",
       },
       colors: {
         lightMode: {
-          light: "#e0d1ba",
+          light: "#12161b",
           lightgray: "#e5e5e5",
           gray: "#b8b8b8",
           darkgray: "#4e4e4e",

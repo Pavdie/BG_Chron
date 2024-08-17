@@ -41,6 +41,15 @@ export default ((opts?: Partial<ContentMetaOptions>) => {
         })
         segments.push(displayedTime)
       }
+	  
+	        // Display revision time if enabled
+      if (options.showRevision) {
+        const revision = fileData.frontmatter?.revision
+        if (revision != null) {
+          const displayedRev = "revision: " + revision
+          segments.push(displayedRev)
+        }
+      }
 
       const segmentsElements = segments.map((segment) => <span>{segment}</span>)
 

@@ -57,7 +57,7 @@ const config: QuartzConfig = {
       Plugin.FrontMatter(),
       Plugin.CreatedModifiedDate({
         priority: ["frontmatter", "filesystem"],
-        language: toml,
+        language: "toml",
       }),
       Plugin.SyntaxHighlighting({
         theme: {

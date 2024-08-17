@@ -12,12 +12,13 @@ interface ContentMetaOptions {
    */
   showReadingTime: boolean
   showComma: boolean
+  showRevision: boolean
 }
 
 const defaultOptions: ContentMetaOptions = {
   showReadingTime: true,
   showComma: true,
-  showRevision: true
+  showRevision: true,
 }
 
 export default ((opts?: Partial<ContentMetaOptions>) => {

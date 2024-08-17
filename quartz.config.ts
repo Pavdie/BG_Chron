@@ -54,7 +54,7 @@ const config: QuartzConfig = {
   },
   plugins: {
     transformers: [
-      Plugin.FrontMatter({ language: "toml"} ),
+      Plugin.FrontMatter({ language: toml} ),
       Plugin.CreatedModifiedDate({
         priority: ["frontmatter", "filesystem"],
       }),

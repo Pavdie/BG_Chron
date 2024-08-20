@@ -17,6 +17,7 @@ if (ge == undefined) {ge = "Нет данных";}
 > ## <%tp.file.title%>
 > 
 > ![[<%tp.file.title%>.jpg]]
+> ![[<%tp.file.title%>.png]]
 > 
 > ### Описание
 > 
@@ -28,5 +29,4 @@ if (ge == undefined) {ge = "Нет данных";}
 > | Пол | <% ge %> |
 > | Организация | <% org %> |
 > | Статус | <% status %> |
-
 
